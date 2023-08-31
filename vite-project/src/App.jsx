@@ -29,7 +29,7 @@ function App() {
       
       <div className="card">
         <button onClick={() => Calcular((IMC) => (peso) / (altura*altura))}>
-        The IMC is : {IMC}
+        The IMC is : {IMC.toFixed(2)}
         </button>
       </div>
     </>
